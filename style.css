@@ -1,0 +1,78 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+/* Layout & Spacing */
+header, section, footer {
+    padding: 20px;
+}
+
+header, section {
+    margin-bottom: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    background-color: #1E1E1E; /* Slightly lighter than body for distinction */
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #333333;
+}
+
+/* Images */
+.inline-icon {
+    max-width: 50px; /* Reduced size for a more subtle look */
+    height: auto;
+    margin-bottom: 10px;
+    display: block; /* Block display to be on its own line above the text */
+    margin-left: auto; /* Center the icon */
+    margin-right: auto; /* Center the icon */
+}
